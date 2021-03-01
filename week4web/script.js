@@ -5,6 +5,7 @@ $(document).ready(function()
         {
           var src = $(".gif").attr("src");
           $(".gif").attr("src", src.replace(/\.png$/i, ".gif"));
+          console.log("play gif");
         },
         function()
         {
