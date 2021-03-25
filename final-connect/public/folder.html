@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Encrypted Video Files</title>
+  <link rel="stylesheet" href="./folder-style.css">
+
+</head>
+<body>
+  <div id="instruction">
+    <div class="card card-2">
+      <img src="assets/lock_file.png" > <h3 id="date"></h3>
+
+      
+    </div>
+    <h1 id="question"></h1>
+
+      <form>
+        <div id="choice">
+        <input type="radio" name="answer" value="0" id="ans0"> <span id="choice0"></span> </input>
+                  
+        <input type="radio" name="answer" value="1" id="ans1"> <span id="choice1"></span> </input>
+                    
+        <input type="radio" name="answer" value="2" id="ans2"> <span id="choice2"></span> </input>
+        
+        <br>
+      </div>
+        <input type="button" name="next" value="Unlock the file" id="next" />
+      <div>
+      
+      <!-- <a href="rewelcome.html" class="click">Click</a> </div> -->
+
+    </form>
+  </div>
+
+
+
+    <!-- video -->
+    <div id="video1">
+      <video controls>
+        <source src="assets/scene1.mp4" type="video/mp4">
+        <source src="assets/scene1.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+    <div id="video2">
+      <video controls>
+        <source src="assets/broken-file.mp4" type="video/mp4">
+        <source src="assets/broken-file.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+    <div id="video3">
+      <video controls>
+        <source src="assets/broken-file.mp4" type="video/mp4">
+        <source src="assets/broken-file.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
