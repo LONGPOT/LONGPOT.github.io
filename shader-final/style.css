@@ -1,0 +1,27 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  background-image: url("fuji.png");
+  overflow: hidden;
+  transition: background-image 700ms;
+}
+button{
+position:absolute;
+top:0;
+right: 0;
+
+}
+
+
+.colorOne{
+  background-image: url("assets/fuji.png");
+}
+.colorTwo{
+  background-image: url("assets/kite.png");
+}
